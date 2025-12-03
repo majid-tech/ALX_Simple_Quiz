@@ -2,7 +2,7 @@
 function checkAnswer() {
     const correctAnswer = "4"
 
-    userAnswer = document.querySelector('input[type="radio"]:checked').value
+    userAnswer = document.querySelector('input[name="quiz"]:checked').value
 
     const feedback = document.getElementById("feedback")
 
